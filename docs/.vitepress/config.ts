@@ -59,7 +59,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Rules', link: '/rules/' },
       { text: 'Sources', link: '/sources/' },
-      { text: 'Changelog', link: '/log' },
+      { text: 'Overview', link: '/catalogue' },
     ],
 
     sidebar: {
@@ -67,6 +67,7 @@ export default defineConfig({
       '/sources/': { base: '/', items: getSidebar() },
       '/catalogue': { base: '/', items: getSidebar() },
       '/log': { base: '/', items: getSidebar() },
+      '/help': { base: '/', items: getSidebar() },
     },
 
     socialLinks: [

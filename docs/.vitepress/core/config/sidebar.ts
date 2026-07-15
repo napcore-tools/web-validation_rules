@@ -48,6 +48,7 @@ export function getSidebar() {
       items: [
         { text: 'Overview', link: '/catalogue' },
         { text: 'Changelog', link: '/log' },
+        { text: 'Help', link: '/help' },
       ],
     },
   ];

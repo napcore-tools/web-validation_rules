@@ -122,9 +122,12 @@ export function okfMarkdownPlugin(md: MarkdownIt) {
     let transformed: string;
     if (data.type === 'Validation Rule' || data.type === 'Validation Rule Source') {
       // Concept pages have no H1 title of their own; inject it and demote all
-      // body section H1s.
-      const header = conceptHeader(data, data.type === 'Validation Rule');
-      transformed = header + demoteH1s(content, false);
+      // body section H1s. Rule pages additionally get the collapsible metadata
+      // box at the end.
+      const isRule = data.type === 'Validation Rule';
+      const header = conceptHeader(data, isRule);
+      const footer = isRule ? '\n\n<RuleMetadata />\n' : '';
+      transformed = header + demoteH1s(content, false) + footer;
     } else {
       // Remaining bundle pages (catalogue overview, changelog, sources index) start
       // with a title H1 but may use further H1s as sections.

@@ -2,7 +2,7 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted, nextTick } from 'vue';
-import { useRouter } from 'vitepress';
+import { useRouter, withBase } from 'vitepress';
 
 const router = useRouter();
 
@@ -23,6 +23,11 @@ function onKeyDown(e: KeyboardEvent) {
   if (tag === 'INPUT' || tag === 'TEXTAREA' || editable) return;
   if (e.metaKey || e.ctrlKey || e.altKey) return;
 
+  if (e.key === '?') {
+    router.go(withBase('/help#keyboard-shortcuts'));
+    return;
+  }
+
   if (e.key === 'g') {
     gPressedAt = Date.now();
     return;
@@ -31,7 +36,7 @@ function onKeyDown(e: KeyboardEvent) {
   if (gPressedAt > 0 && Date.now() - gPressedAt < G_WINDOW_MS && NAV_KEYS[e.key]) {
     e.preventDefault();
     gPressedAt = 0;
-    router.go(NAV_KEYS[e.key]);
+    router.go(withBase(NAV_KEYS[e.key]));
     nextTick(() => {
       document.querySelector<HTMLInputElement>('.search-input')?.focus();
     });

@@ -6,6 +6,7 @@ import './custom.css';
 import './markdown-sections.css';
 import KeyboardNav from './components/KeyboardNav.vue';
 import RuleInfo from './components/rules/RuleInfo.vue';
+import RuleMetadata from './components/rules/RuleMetadata.vue';
 import RuleBrowser from './components/rules/RuleBrowser.vue';
 import SourceCards from './components/rules/SourceCards.vue';
 import { initializeDetailsNavigation } from '@/core/utils';
@@ -26,6 +27,7 @@ export default {
    */
   enhanceApp({ app }) {
     app.component('RuleInfo', RuleInfo);
+    app.component('RuleMetadata', RuleMetadata);
     app.component('RuleBrowser', RuleBrowser);
     app.component('SourceCards', SourceCards);
 
