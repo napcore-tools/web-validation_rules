@@ -1,16 +1,32 @@
-image: node:23.11.0
+# Development deploy target. Production is GitHub Pages, built by
+# .github/workflows/deploy.yml - keep the Node version in step with that
+# workflow so this job rehearses the real build rather than a different one.
+image: node:24
 
 pages:
   stage: deploy
+  # npm ci removes node_modules before installing, so caching it buys nothing.
+  # Cache npm's download cache instead, keyed on the lockfile.
   cache:
+    key:
+      files:
+        - package-lock.json
     paths:
-      - node_modules/
+      - .npm/
   script:
-    - npm install
+    # GitLab serves this project from a subdirectory, so VitePress needs a base
+    # path or every asset 404s. Derive it from the Pages URL rather than
+    # hardcoding: this stays correct under the nested group path and under a
+    # unique domain, where the path is empty and the base is just /.
+    - export VITEPRESS_BASE="$(echo "$CI_PAGES_URL" | sed -E 's#^https?://[^/]+##; s#/$##')/"
+    - echo "Building $CI_PAGES_URL with base $VITEPRESS_BASE"
+    - npm ci --cache .npm --prefer-offline
     - npm run build
     - mv docs/.vitepress/dist public
   artifacts:
     paths:
       - public
-  only:
-    - master
+  rules:
+    # Follow the default branch, so renaming master to main does not silently
+    # stop the deploys.
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
