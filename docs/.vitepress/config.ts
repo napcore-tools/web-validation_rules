@@ -68,7 +68,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Rules', link: '/rules/' },
-      { text: 'Sources', link: '/sources/' },
+      { text: 'Rule Sources', link: '/sources/' },
     ],
 
     sidebar: {
