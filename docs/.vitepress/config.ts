@@ -79,9 +79,7 @@ export default defineConfig({
       '/help': { base: '/', items: getSidebar() },
     },
 
-    socialLinks: [
-      { icon: 'gitlab', link: 'https://gitlab.com/tamtamresearch/personal/roman/validator.mobilitydata/web' },
-    ],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/napcore-tools/web-validation_rules' }],
 
     footer: {
       message: 'Co-financed by the Connecting Europe Facility of the European Union',
