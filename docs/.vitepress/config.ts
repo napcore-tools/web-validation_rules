@@ -49,7 +49,7 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: 'https://napcore.eu/wp-content/themes/napcore/images/napcore-logo.png',
+    logo: '/validation-rules-logo.png',
 
     outline: {
       level: [2, 3],
