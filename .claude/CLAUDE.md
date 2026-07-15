@@ -15,11 +15,11 @@ overwritten by future re-exports.
 
 - **Never edit files under `docs/bundle/`.** (It is also excluded from
   prettier/eslint via `.prettierignore` and `eslint.config.js` so the pre-commit hook
-  never reformats it — keep it that way.)
+  never reformats it - keep it that way.)
 - All presentation is derived at build/render time: rewrites, data loaders, and the
   `okfMarkdownPlugin` render-time transforms.
-- If a bundle page needs to look different, change the plugin/components — or change
-  the generator in the companion repo — never the bundle files.
+- If a bundle page needs to look different, change the plugin/components - or change
+  the generator in the companion repo - never the bundle files.
 
 ## Language
 
@@ -36,12 +36,12 @@ recognised, standardised, prioritise, harmonise, centralised, licence (noun).
 
 ### OKF bundle structure (`docs/bundle/`)
 
-- `index.md` — catalogue overview (served at `/catalogue`)
-- `log.md` — update log (served at `/log`)
-- `sources/<slug>.md` — one Concept per rule source (`type: Validation Rule Source`),
+- `index.md` - catalogue overview (served at `/catalogue`)
+- `log.md` - update log (served at `/log`)
+- `sources/<slug>.md` - one Concept per rule source (`type: Validation Rule Source`),
   frontmatter: `slug`, `title`, `description`, `standard`, `rule_count`,
   `severity_vocabulary`, `resource`
-- `rules/<source>/<rule>.md` — one Concept per rule (`type: Validation Rule`),
+- `rules/<source>/<rule>.md` - one Concept per rule (`type: Validation Rule`),
   frontmatter: `code`, `title`, `description`, `standard`, `source`, `severity`,
   `category`, `maturity`, `tags`, optional `resource`
 - Severity vocabularies differ per source: MobilityData/Entur use ERROR/WARNING/INFO;
@@ -58,16 +58,16 @@ rewritten path.
 Caveat learned the hard way: under rewrites, `env.relativePath` inside markdown-it is
 the **rewritten** path and `env.realPath` is the physical file; the local-search
 indexer instead passes the **physical** path as `relativePath` with no `realPath`.
-`okfMarkdownPlugin.bundlePath()` handles both — keep it that way.
+`okfMarkdownPlugin.bundlePath()` handles both - keep it that way.
 
 VitePress 2 renders pages via markdown-it-async's `md.renderAsync`, which delegates to
 `this.render`, so overriding the instance `render` method still intercepts pages.
 
 ### Data loaders (`docs/.vitepress/core/data-loaders/`)
 
-- `rules.data.ts` — exports `Rule` interface + all rules parsed from bundle
+- `rules.data.ts` - exports `Rule` interface + all rules parsed from bundle
   frontmatter. Single source of truth for counts/tables/stats.
-- `sources.data.ts` — exports `RuleSource` interface (includes `shortTitle`, the first
+- `sources.data.ts` - exports `RuleSource` interface (includes `shortTitle`, the first
   word of the title, used in navigation).
 - Frontmatter is validated on load (`core/validation/rules.ts` +
   `core/validation/utils.ts`): warnings in dev, production build fails on errors.
@@ -87,11 +87,11 @@ For bundle pages only:
 
 ### Components (`docs/.vitepress/theme/components/rules/`)
 
-- `RuleInfo.vue` — badge row (severity/standard/category/maturity + source link),
+- `RuleInfo.vue` - badge row (severity/standard/category/maturity + source link),
   reads the page frontmatter via `useData()`.
-- `RuleBrowser.vue` — filterable rule table (text/source/severity/category), fed by
+- `RuleBrowser.vue` - filterable rule table (text/source/severity/category), fed by
   `rules.data`.
-- `SourceCards.vue` — home page stats + per-source cards, all counts derived from the
+- `SourceCards.vue` - home page stats + per-source cards, all counts derived from the
   loaders.
 - Components are registered globally in `docs/.vitepress/theme/index.ts` (required:
   the plugin injects them into markdown).
@@ -100,7 +100,7 @@ For bundle pages only:
 ### Navigation
 
 - Top nav: Home · Rules · Sources · Changelog.
-- Sidebar (`core/config/sidebar.ts`): sources only — rule-count badges, no per-rule
+- Sidebar (`core/config/sidebar.ts`): sources only - rule-count badges, no per-rule
   items (the RuleBrowser tables do rule browsing). Applied to `/rules/`, `/sources/`,
   `/catalogue`, `/log` route prefixes.
 
@@ -115,7 +115,7 @@ standard, severity, category, tags) into the index. It must use `md.renderAsync`
 ### Updating the rules (bundle re-export)
 
 1. Re-export in the companion repo; replace `docs/bundle/` contents wholesale.
-2. `npm run build` — validation fails loudly on a malformed export; navigation,
+2. `npm run build` - validation fails loudly on a malformed export; navigation,
    counts and tables update automatically.
 
 ### Adding a hand-crafted page
@@ -134,5 +134,5 @@ paths (`/rules/...`, `/sources/...`, `/catalogue`, `/log`) must be avoided.
   configurable via `VITEPRESS_BASE`.
 - **Shiki**: `xpath` fences (Entur rule implementations) are aliased to `txt` in the
   markdown config.
-- **Styling**: never use `<style scoped>` directly in Markdown files — use Vue
+- **Styling**: never use `<style scoped>` directly in Markdown files - use Vue
   components (VitePress performance guideline).

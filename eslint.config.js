@@ -14,7 +14,7 @@ export default [
       'docs/.vitepress/cache/**',
       'docs/.vitepress/dist/**',
       'docs/public/**',
-      // Generated OKF bundle — read-only, never lint/format
+      // Generated OKF bundle - read-only, never lint/format
       'docs/bundle/**',
       '.claude/**',
     ],
@@ -103,6 +103,6 @@ export default [
     },
   },
 
-  // Config 7: Prettier integration — MUST be last
+  // Config 7: Prettier integration - MUST be last
   prettierConfig,
 ];
