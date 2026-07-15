@@ -49,6 +49,29 @@ function demoteH1s(content: string, keepFirst: boolean): string {
 }
 
 /**
+ * Forces a hard line break on citation lines (`[1] ...`). The export puts each
+ * citation on its own line, but without trailing spaces markdown soft-wraps
+ * consecutive citations into a single paragraph line.
+ */
+function hardBreakCitations(content: string): string {
+  let insideFence = false;
+
+  return content
+    .split('\n')
+    .map((line) => {
+      if (/^\s*(```|~~~)/.test(line)) {
+        insideFence = !insideFence;
+        return line;
+      }
+      if (!insideFence && /^\[\d+\]\s/.test(line)) {
+        return `${line}  `;
+      }
+      return line;
+    })
+    .join('\n');
+}
+
+/**
  * Builds the injected header for a rule/source Concept: H1 title, description
  * blockquote and (for rules) the RuleInfo badge row.
  */
@@ -108,6 +131,9 @@ export function okfMarkdownPlugin(md: MarkdownIt) {
       return originalRender(src, env);
     }
 
+    // Normalise line endings before the line-based transforms: a Windows checkout
+    // has CRLF, and appending hard-break spaces after a stray \r changes semantics.
+    src = src.replace(/\r\n?/g, '\n');
     const { data, content } = matter(src) as { data: OkfFrontmatter; content: string };
 
     // Rule listing pages: the generated flat link lists are replaced with the
@@ -127,7 +153,7 @@ export function okfMarkdownPlugin(md: MarkdownIt) {
       const isRule = data.type === 'Validation Rule';
       const header = conceptHeader(data, isRule);
       const footer = isRule ? '\n\n<RuleMetadata />\n' : '';
-      transformed = header + demoteH1s(content, false) + footer;
+      transformed = header + hardBreakCitations(demoteH1s(content, false)) + footer;
     } else {
       // Remaining bundle pages (catalogue overview, changelog, sources index) start
       // with a title H1 but may use further H1s as sections.
