@@ -11,7 +11,7 @@ import { fileURLToPath, URL } from 'node:url';
 const BASE_PATH = process.env.VITEPRESS_BASE || '/';
 
 export default defineConfig({
-  title: 'NAPCORE Validation Rules',
+  title: 'Validation Kit',
   description: 'Validation rule catalogue for EU mobility data standards',
   // Dynamically set the base path for assets and routing
   base: BASE_PATH,
@@ -35,7 +35,7 @@ export default defineConfig({
     ],
     ['meta', { name: 'theme-color', content: '#0066cc' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'NAPCORE Validation Rules' }],
+    ['meta', { property: 'og:title', content: 'Validation Kit' }],
     ['meta', { property: 'og:description', content: 'Validation rule catalogue for EU mobility data standards' }],
   ],
   markdown: {
