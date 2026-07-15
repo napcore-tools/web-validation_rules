@@ -33,11 +33,13 @@ jobs:
         with:
           node-version: 24
           cache: npm
+      # Pages must already be enabled on the repository, with Settings > Pages >
+      # Build and deployment > Source set to "GitHub Actions". This step cannot
+      # do it: the action's `enablement` option needs a token with admin rights,
+      # which GITHUB_TOKEN does not have, so asking for it only fails with
+      # "Resource not accessible by integration".
       - name: Setup Pages
         uses: actions/configure-pages@v6
-        with:
-          # Explicitly enables GitHub Pages for the repository if not already set.
-          enablement: true
       - name: Check for custom domain
         id: check-domain
         run: |
