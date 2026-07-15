@@ -1,0 +1,115 @@
+/**
+ * NAPCORE Validation Rules - Custom Theme
+ * Colors inspired by NAPCORE branding
+ */
+
+:root {
+  /* NAPCORE Brand Colors */
+  --vp-c-brand-1: #0066cc;
+  --vp-c-brand-2: #0052a3;
+  --vp-c-brand-3: #004080;
+  --vp-c-brand-soft: rgba(0, 102, 204, 0.14);
+
+  /* Accent Colors */
+  --napcore-green: #00a651;
+  --napcore-orange: #ff6b35;
+
+  /* Custom Theme Colors */
+  --vp-c-green-1: #00a651;
+  --vp-c-green-2: #008a44;
+  --vp-c-green-3: #006f37;
+  --vp-c-green-soft: rgba(0, 166, 81, 0.14);
+
+  /* Hero Gradient */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #0066cc 0%, #004080 100%);
+
+  /* Button Colors */
+  --vp-button-brand-bg: #0066cc;
+  --vp-button-brand-hover-bg: #0052a3;
+  --vp-button-brand-active-bg: #004080;
+}
+
+/* Dark mode adjustments */
+.dark {
+  --vp-c-brand-1: #4d9fff;
+  --vp-c-brand-2: #3385ff;
+  --vp-c-brand-3: #0066cc;
+}
+
+/* Logo adjustments */
+.VPNavBarTitle .logo {
+  max-height: 40px;
+  width: auto;
+}
+
+/* Custom homepage styles */
+.VPHome {
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Hero section customization */
+.VPHero .name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.VPHero .tagline {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.VPHero .text {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .VPHero .name {
+    font-size: 2.5rem;
+  }
+
+  .VPHero .tagline {
+    font-size: 1.2rem;
+  }
+}
+
+/* Footer customization */
+.VPFooter {
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 2rem;
+}
+
+/* Sidebar badges for rule counts */
+.sidebar-badge {
+  display: inline-block;
+  padding: 0 0.25rem;
+  margin-left: 0.25rem;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  vertical-align: middle;
+}
+
+.dark .sidebar-badge {
+  background: rgba(77, 159, 255, 0.2);
+  color: var(--vp-c-brand-1);
+}
+
+.pager .sidebar-badge {
+  display: none;
+}
+
+a.title > span {
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,63 @@
+{
+  "name": "napcore-validation-rules-web",
+  "version": "0.1.0",
+  "description": "NAPCORE Validation Rules - validation rule catalogue for EU mobility data standards",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "lint": "eslint . --cache",
+    "lint:fix": "eslint . --fix --cache",
+    "type-check": "vue-tsc --noEmit",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "prepare": "npx simple-git-hooks",
+    "precommit": "npx lint-staged"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npm run precommit"
+  },
+  "lint-staged": {
+    "*.{js,ts,css,vue,md,json,yml,yaml}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  },
+  "keywords": [
+    "napcore",
+    "mobility",
+    "validation",
+    "gtfs",
+    "netex",
+    "rules",
+    "catalogue"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "@types/markdown-it-container": "^2.0.10",
+    "@typescript-eslint/eslint-plugin": "^8.46.2",
+    "@typescript-eslint/parser": "^8.46.2",
+    "eslint": "^9.38.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-vue": "^10.5.1",
+    "gray-matter": "^4.0.3",
+    "lint-staged": "^16.2.6",
+    "markdown-it-container": "^4.0.0",
+    "prettier": "^3.6.2",
+    "simple-git-hooks": "^2.13.1",
+    "typescript": "^5.9.3",
+    "vitepress": "^2.0.0-alpha.17",
+    "vitepress-plugin-llmstxt": "^0.5.0",
+    "vue-tsc": "^3.1.4"
+  },
+  "overrides": {
+    "vitepress-plugin-llmstxt": {
+      "vitepress": "$vitepress"
+    }
+  }
+}
