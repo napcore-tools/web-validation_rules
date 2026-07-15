@@ -80,6 +80,26 @@
   }
 }
 
+/* Wide-table pages
+ *
+ * The rule browser is a data table, not prose, so VitePress's 688px reading
+ * column cramps it badly. Those pages also have nothing to put in the outline:
+ * okfMarkdownPlugin replaces the body with the table, leaving only an H1, and
+ * the outline starts at H2 - so the aside is an empty 256px column. Reclaim
+ * both and let the table have the room.
+ *
+ * Keyed off :has(.rule-browser) rather than a pageClass so the rule follows the
+ * component itself; the plugin decides which pages get one and that logic
+ * should not be restated here.
+ */
+.VPDoc.has-aside:has(.rule-browser) .content-container {
+  max-width: none;
+}
+
+.VPDoc.has-aside:has(.rule-browser) .aside {
+  display: none;
+}
+
 /* Footer customization */
 .VPFooter {
   border-top: 1px solid var(--vp-c-divider);
