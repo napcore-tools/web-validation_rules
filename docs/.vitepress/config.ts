@@ -74,6 +74,7 @@ export default defineConfig({
     sidebar: {
       '/rules/': { base: '/', items: getSidebar() },
       '/sources/': { base: '/', items: getSidebar() },
+      '/reference-model/': { base: '/', items: getSidebar() },
       '/log': { base: '/', items: getSidebar() },
       '/help': { base: '/', items: getSidebar() },
     },

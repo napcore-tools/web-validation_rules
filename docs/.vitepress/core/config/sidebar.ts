@@ -46,6 +46,7 @@ export function getSidebar() {
       text: 'Catalogue',
       collapsed: false,
       items: [
+        { text: 'Reference Model', link: '/reference-model/' },
         { text: 'Help', link: '/help' },
         { text: 'Changelog', link: '/log' },
       ],
