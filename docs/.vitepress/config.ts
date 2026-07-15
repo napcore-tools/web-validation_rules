@@ -59,13 +59,11 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Rules', link: '/rules/' },
       { text: 'Sources', link: '/sources/' },
-      { text: 'Overview', link: '/catalogue' },
     ],
 
     sidebar: {
       '/rules/': { base: '/', items: getSidebar() },
       '/sources/': { base: '/', items: getSidebar() },
-      '/catalogue': { base: '/', items: getSidebar() },
       '/log': { base: '/', items: getSidebar() },
       '/help': { base: '/', items: getSidebar() },
     },

@@ -24,6 +24,14 @@ export function getSidebar() {
 
   return [
     {
+      text: 'Rule Sources',
+      collapsed: false,
+      items: sources.map((source) => ({
+        text: `${source.shortTitle} · ${source.standard}`,
+        link: source.url,
+      })),
+    },
+    {
       text: 'Rules',
       collapsed: false,
       items: [
@@ -35,20 +43,11 @@ export function getSidebar() {
       ],
     },
     {
-      text: 'Sources',
-      collapsed: false,
-      items: sources.map((source) => ({
-        text: `${source.shortTitle} · ${source.standard}`,
-        link: source.url,
-      })),
-    },
-    {
       text: 'Catalogue',
       collapsed: false,
       items: [
-        { text: 'Overview', link: '/catalogue' },
-        { text: 'Changelog', link: '/log' },
         { text: 'Help', link: '/help' },
+        { text: 'Changelog', link: '/log' },
       ],
     },
   ];
