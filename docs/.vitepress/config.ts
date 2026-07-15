@@ -26,12 +26,22 @@ export default defineConfig({
     return id;
   },
 
+  // VitePress does not apply `base` to head links, so build them from BASE_PATH
+  // by hand - a bare '/favicon.png' 404s wherever the site is not at the root.
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
-    ['link', { rel: 'alternate', type: 'text/markdown', title: 'LLM-friendly documentation', href: '/llms.txt' }],
+    ['link', { rel: 'icon', type: 'image/png', href: `${BASE_PATH}favicon.png` }],
     [
       'link',
-      { rel: 'alternate', type: 'text/markdown', title: 'Complete LLM-friendly documentation', href: '/llms-full.txt' },
+      { rel: 'alternate', type: 'text/markdown', title: 'LLM-friendly documentation', href: `${BASE_PATH}llms.txt` },
+    ],
+    [
+      'link',
+      {
+        rel: 'alternate',
+        type: 'text/markdown',
+        title: 'Complete LLM-friendly documentation',
+        href: `${BASE_PATH}llms-full.txt`,
+      },
     ],
     ['meta', { name: 'theme-color', content: '#0066cc' }],
     ['meta', { property: 'og:type', content: 'website' }],
