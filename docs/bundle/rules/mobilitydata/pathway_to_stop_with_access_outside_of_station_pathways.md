@@ -3,7 +3,7 @@ type: Validation Rule
 title: pathway_to_stop_with_access_outside_of_station_pathways
 description: A pathway has an endpoint that is a stop with stop_access=1, which should
   be accessible outside of the station's pathways.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_stop_with_access_outside_of_station_pathways
+resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_stop_with_access_outside_of_station_pathways-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [pathway_to_stop_with_access_outside_of_station_pathways rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_stop_with_access_outside_of_station_pathways)
+[1] [pathway_to_stop_with_access_outside_of_station_pathways rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_stop_with_access_outside_of_station_pathways-rule)

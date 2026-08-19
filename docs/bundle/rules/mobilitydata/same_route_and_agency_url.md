@@ -2,7 +2,7 @@
 type: Validation Rule
 title: same_route_and_agency_url
 description: Same `routes.route_url` and `agency.agency_url`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#same_route_and_agency_url
+resource: https://gtfs-validator.mobilitydata.org/rules.html#same_route_and_agency_url-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [same_route_and_agency_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_route_and_agency_url)
+[1] [same_route_and_agency_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_route_and_agency_url-rule)

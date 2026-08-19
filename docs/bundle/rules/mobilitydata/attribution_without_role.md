@@ -2,7 +2,7 @@
 type: Validation Rule
 title: attribution_without_role
 description: Attribution with no role.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#attribution_without_role
+resource: https://gtfs-validator.mobilitydata.org/rules.html#attribution_without_role-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [attribution_without_role rule reference](https://gtfs-validator.mobilitydata.org/rules.html#attribution_without_role)
+[1] [attribution_without_role rule reference](https://gtfs-validator.mobilitydata.org/rules.html#attribution_without_role-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: inconsistent_route_type_for_block_id
 description: A block should have the same route mode.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_route_type_for_block_id
+resource: https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_route_type_for_block_id-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [inconsistent_route_type_for_block_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_route_type_for_block_id)
+[1] [inconsistent_route_type_for_block_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_route_type_for_block_id-rule)

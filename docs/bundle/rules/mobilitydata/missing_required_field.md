@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_required_field
 description: A required field is missing.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_field
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_field-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_required_field rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_field)
+[1] [missing_required_field rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_field-rule)

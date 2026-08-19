@@ -2,7 +2,7 @@
 type: Validation Rule
 title: route_short_name_too_long
 description: Short name of a route is too long (more than 12 characters).
-resource: https://gtfs-validator.mobilitydata.org/rules.html#route_short_name_too_long
+resource: https://gtfs-validator.mobilitydata.org/rules.html#route_short_name_too_long-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [route_short_name_too_long rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_short_name_too_long)
+[1] [route_short_name_too_long rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_short_name_too_long-rule)

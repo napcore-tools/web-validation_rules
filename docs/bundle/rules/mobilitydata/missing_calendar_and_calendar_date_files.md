@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_calendar_and_calendar_date_files
 description: Missing GTFS files `calendar.txt` and `calendar_dates.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_calendar_and_calendar_date_files
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_calendar_and_calendar_date_files-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_calendar_and_calendar_date_files rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_calendar_and_calendar_date_files)
+[1] [missing_calendar_and_calendar_date_files rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_calendar_and_calendar_date_files-rule)

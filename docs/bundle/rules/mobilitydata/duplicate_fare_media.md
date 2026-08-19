@@ -2,7 +2,7 @@
 type: Validation Rule
 title: duplicate_fare_media
 description: Two distinct fare media have the same fare media name and type.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_fare_media
+resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_fare_media-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [duplicate_fare_media rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_fare_media)
+[1] [duplicate_fare_media rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_fare_media-rule)

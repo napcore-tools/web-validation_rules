@@ -3,7 +3,7 @@ type: Validation Rule
 title: transfer_distance_too_large
 description: The transfer distance from stop to stop in `transfers.txt` is larger
   than 10 km.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_too_large
+resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_too_large-rule
 tags:
 - mobilitydata
 - gtfs
@@ -27,4 +27,4 @@ maturity: draft
 
 # Citations
 
-[1] [transfer_distance_too_large rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_too_large)
+[1] [transfer_distance_too_large rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_too_large-rule)

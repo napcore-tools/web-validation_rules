@@ -2,7 +2,7 @@
 type: Validation Rule
 title: wrong_parent_location_type
 description: Incorrect type of the parent location.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#wrong_parent_location_type
+resource: https://gtfs-validator.mobilitydata.org/rules.html#wrong_parent_location_type-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [wrong_parent_location_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#wrong_parent_location_type)
+[1] [wrong_parent_location_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#wrong_parent_location_type-rule)

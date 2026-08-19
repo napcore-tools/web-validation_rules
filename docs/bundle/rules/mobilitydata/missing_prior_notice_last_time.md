@@ -3,7 +3,7 @@ type: Validation Rule
 title: missing_prior_notice_last_time
 description: The `prior_notice_last_time` is required when booking_type=2 (prior day
   booking) is specified in booking_rules.txt.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_last_time
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_last_time-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_prior_notice_last_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_last_time)
+[1] [missing_prior_notice_last_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_last_time-rule)

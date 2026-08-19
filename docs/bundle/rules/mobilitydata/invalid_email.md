@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_email
 description: A field contains a malformed email address.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_email
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_email-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_email rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_email)
+[1] [invalid_email rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_email-rule)

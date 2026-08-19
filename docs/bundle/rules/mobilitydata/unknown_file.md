@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unknown_file
 description: A file is unknown.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unknown_file
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unknown_file-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unknown_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unknown_file)
+[1] [unknown_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unknown_file-rule)

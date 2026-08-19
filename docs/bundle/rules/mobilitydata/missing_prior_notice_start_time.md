@@ -3,7 +3,7 @@ type: Validation Rule
 title: missing_prior_notice_start_time
 description: '`prior_notice_start_time` value is required when `prior_notice_start_day`
   value is set in booking_rules.txt.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_start_time
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_start_time-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_prior_notice_start_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_start_time)
+[1] [missing_prior_notice_start_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_start_time-rule)

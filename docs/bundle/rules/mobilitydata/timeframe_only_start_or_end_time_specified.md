@@ -3,7 +3,7 @@ type: Validation Rule
 title: timeframe_only_start_or_end_time_specified
 description: A row from `timeframes.txt` was found with only one of `start_time` and
   `end_time` specified.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#timeframe_only_start_or_end_time_specified
+resource: https://gtfs-validator.mobilitydata.org/rules.html#timeframe_only_start_or_end_time_specified-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [timeframe_only_start_or_end_time_specified rule reference](https://gtfs-validator.mobilitydata.org/rules.html#timeframe_only_start_or_end_time_specified)
+[1] [timeframe_only_start_or_end_time_specified rule reference](https://gtfs-validator.mobilitydata.org/rules.html#timeframe_only_start_or_end_time_specified-rule)

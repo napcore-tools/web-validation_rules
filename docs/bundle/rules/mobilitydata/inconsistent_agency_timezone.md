@@ -2,7 +2,7 @@
 type: Validation Rule
 title: inconsistent_agency_timezone
 description: Inconsistent Timezone among agencies.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_timezone
+resource: https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_timezone-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [inconsistent_agency_timezone rule reference](https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_timezone)
+[1] [inconsistent_agency_timezone rule reference](https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_timezone-rule)

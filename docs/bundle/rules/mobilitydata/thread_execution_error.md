@@ -2,7 +2,7 @@
 type: Validation Rule
 title: thread_execution_error
 description: ExecutionException during multithreaded validation
-resource: https://gtfs-validator.mobilitydata.org/rules.html#thread_execution_error
+resource: https://gtfs-validator.mobilitydata.org/rules.html#thread_execution_error-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [thread_execution_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#thread_execution_error)
+[1] [thread_execution_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#thread_execution_error-rule)

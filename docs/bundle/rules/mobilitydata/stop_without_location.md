@@ -3,7 +3,7 @@ type: Validation Rule
 title: stop_without_location
 description: '`stop_lat` and/or `stop_lon` is missing for stop with `location_type`
   equal to`0`, `1`, or `2`'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_without_location
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_without_location-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [stop_without_location rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_without_location)
+[1] [stop_without_location rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_without_location-rule)

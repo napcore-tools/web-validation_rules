@@ -2,7 +2,7 @@
 type: Validation Rule
 title: pathway_dangling_generic_node
 description: A generic node has only one incident location in a pathway graph.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_dangling_generic_node
+resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_dangling_generic_node-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [pathway_dangling_generic_node rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_dangling_generic_node)
+[1] [pathway_dangling_generic_node rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_dangling_generic_node-rule)

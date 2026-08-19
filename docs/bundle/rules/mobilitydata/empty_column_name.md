@@ -2,7 +2,7 @@
 type: Validation Rule
 title: empty_column_name
 description: A column name is empty.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#empty_column_name
+resource: https://gtfs-validator.mobilitydata.org/rules.html#empty_column_name-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [empty_column_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#empty_column_name)
+[1] [empty_column_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#empty_column_name-rule)

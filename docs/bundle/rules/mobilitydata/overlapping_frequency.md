@@ -2,7 +2,7 @@
 type: Validation Rule
 title: overlapping_frequency
 description: Trip frequencies overlap.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#overlapping_frequency
+resource: https://gtfs-validator.mobilitydata.org/rules.html#overlapping_frequency-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [overlapping_frequency rule reference](https://gtfs-validator.mobilitydata.org/rules.html#overlapping_frequency)
+[1] [overlapping_frequency rule reference](https://gtfs-validator.mobilitydata.org/rules.html#overlapping_frequency-rule)

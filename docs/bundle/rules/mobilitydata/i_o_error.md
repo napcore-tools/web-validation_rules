@@ -2,7 +2,7 @@
 type: Validation Rule
 title: i_o_error
 description: Error in IO operation.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#i_o_error
+resource: https://gtfs-validator.mobilitydata.org/rules.html#i_o_error-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [i_o_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#i_o_error)
+[1] [i_o_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#i_o_error-rule)

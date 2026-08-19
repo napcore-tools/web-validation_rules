@@ -2,7 +2,7 @@
 type: Validation Rule
 title: start_and_end_range_equal
 description: Two date or time fields are equal.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_equal
+resource: https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_equal-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [start_and_end_range_equal rule reference](https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_equal)
+[1] [start_and_end_range_equal rule reference](https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_equal-rule)

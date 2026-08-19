@@ -3,7 +3,7 @@ type: Validation Rule
 title: fare_product_with_multiple_default_rider_categories
 description: This notice is generated when a fare product is associated with multiple
   rider categories that are marked as default.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#fare_product_with_multiple_default_rider_categories
+resource: https://gtfs-validator.mobilitydata.org/rules.html#fare_product_with_multiple_default_rider_categories-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [fare_product_with_multiple_default_rider_categories rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fare_product_with_multiple_default_rider_categories)
+[1] [fare_product_with_multiple_default_rider_categories rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fare_product_with_multiple_default_rider_categories-rule)

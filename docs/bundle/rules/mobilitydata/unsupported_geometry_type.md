@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unsupported_geometry_type
 description: A GeoJSON feature has an unsupported geometry type in `locations.geojson`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geometry_type
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geometry_type-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unsupported_geometry_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geometry_type)
+[1] [unsupported_geometry_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geometry_type-rule)

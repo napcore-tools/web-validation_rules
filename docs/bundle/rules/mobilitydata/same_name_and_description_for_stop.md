@@ -2,7 +2,7 @@
 type: Validation Rule
 title: same_name_and_description_for_stop
 description: Same name and description for stop.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_stop
+resource: https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_stop-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [same_name_and_description_for_stop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_stop)
+[1] [same_name_and_description_for_stop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_stop-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: stop_too_far_from_shape
 description: Stop too far from trip shape.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [stop_too_far_from_shape rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape)
+[1] [stop_too_far_from_shape rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape-rule)

@@ -3,7 +3,7 @@ type: Validation Rule
 title: trip_distance_exceeds_shape_distance
 description: The distance between the last shape point and last stop point is greater
   than or equal to the 11.1m threshold.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_distance_exceeds_shape_distance
+resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_distance_exceeds_shape_distance-rule
 tags:
 - mobilitydata
 - gtfs
@@ -27,4 +27,4 @@ maturity: draft
 
 # Citations
 
-[1] [trip_distance_exceeds_shape_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_distance_exceeds_shape_distance)
+[1] [trip_distance_exceeds_shape_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_distance_exceeds_shape_distance-rule)

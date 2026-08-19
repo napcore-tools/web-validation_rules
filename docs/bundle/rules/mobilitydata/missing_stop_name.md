@@ -3,7 +3,7 @@ type: Validation Rule
 title: missing_stop_name
 description: '`stops.stop_name` is required for `location_type` equal to `0`, `1`,
   or `2`.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_name
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_name-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_stop_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_name)
+[1] [missing_stop_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_name-rule)

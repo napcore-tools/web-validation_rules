@@ -3,7 +3,7 @@ type: Validation Rule
 title: fare_transfer_rule_duration_limit_without_type
 description: A row from GTFS file `fare_transfer_rules.txt` has a defined `duration_limit`
   field but no `duration_limit_type` specified.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_duration_limit_without_type
+resource: https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_duration_limit_without_type-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [fare_transfer_rule_duration_limit_without_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_duration_limit_without_type)
+[1] [fare_transfer_rule_duration_limit_without_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_duration_limit_without_type-rule)

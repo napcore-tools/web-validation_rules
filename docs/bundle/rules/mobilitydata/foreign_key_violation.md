@@ -2,7 +2,7 @@
 type: Validation Rule
 title: foreign_key_violation
 description: Wrong foreign key.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#foreign_key_violation
+resource: https://gtfs-validator.mobilitydata.org/rules.html#foreign_key_violation-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [foreign_key_violation rule reference](https://gtfs-validator.mobilitydata.org/rules.html#foreign_key_violation)
+[1] [foreign_key_violation rule reference](https://gtfs-validator.mobilitydata.org/rules.html#foreign_key_violation-rule)

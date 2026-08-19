@@ -2,7 +2,7 @@
 type: Validation Rule
 title: feed_valid_beyond_total_service_window
 description: The feed is valid 14 days beyond its total service window.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#feed_valid_beyond_total_service_window
+resource: https://gtfs-validator.mobilitydata.org/rules.html#feed_valid_beyond_total_service_window-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [feed_valid_beyond_total_service_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#feed_valid_beyond_total_service_window)
+[1] [feed_valid_beyond_total_service_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#feed_valid_beyond_total_service_window-rule)

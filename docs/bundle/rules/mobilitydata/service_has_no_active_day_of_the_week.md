@@ -2,7 +2,7 @@
 type: Validation Rule
 title: service_has_no_active_day_of_the_week
 description: A service is not valid for any day of the week.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#service_has_no_active_day_of_the_week
+resource: https://gtfs-validator.mobilitydata.org/rules.html#service_has_no_active_day_of_the_week-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [service_has_no_active_day_of_the_week rule reference](https://gtfs-validator.mobilitydata.org/rules.html#service_has_no_active_day_of_the_week)
+[1] [service_has_no_active_day_of_the_week rule reference](https://gtfs-validator.mobilitydata.org/rules.html#service_has_no_active_day_of_the_week-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: number_out_of_range
 description: Out of range value.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#number_out_of_range
+resource: https://gtfs-validator.mobilitydata.org/rules.html#number_out_of_range-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [number_out_of_range rule reference](https://gtfs-validator.mobilitydata.org/rules.html#number_out_of_range)
+[1] [number_out_of_range rule reference](https://gtfs-validator.mobilitydata.org/rules.html#number_out_of_range-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: duplicate_geo_json_key
 description: A key in `locations.geojson` is duplicated.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geo_json_key
+resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geo_json_key-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [duplicate_geo_json_key rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geo_json_key)
+[1] [duplicate_geo_json_key rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geo_json_key-rule)

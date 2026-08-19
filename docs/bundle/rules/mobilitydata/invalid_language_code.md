@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_language_code
 description: A field contains a wrong language code.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_language_code
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_language_code-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_language_code rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_language_code)
+[1] [invalid_language_code rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_language_code-rule)

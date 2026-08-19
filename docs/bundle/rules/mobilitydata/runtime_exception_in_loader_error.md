@@ -2,7 +2,7 @@
 type: Validation Rule
 title: runtime_exception_in_loader_error
 description: RuntimeException while loading GTFS dataset in memory.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_loader_error
+resource: https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_loader_error-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [runtime_exception_in_loader_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_loader_error)
+[1] [runtime_exception_in_loader_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_loader_error-rule)

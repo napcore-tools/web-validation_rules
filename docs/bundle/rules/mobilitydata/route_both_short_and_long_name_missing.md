@@ -2,7 +2,7 @@
 type: Validation Rule
 title: route_both_short_and_long_name_missing
 description: Both `route_short_name` and `route_long_name` are missing for a route.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#route_both_short_and_long_name_missing
+resource: https://gtfs-validator.mobilitydata.org/rules.html#route_both_short_and_long_name_missing-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [route_both_short_and_long_name_missing rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_both_short_and_long_name_missing)
+[1] [route_both_short_and_long_name_missing rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_both_short_and_long_name_missing-rule)

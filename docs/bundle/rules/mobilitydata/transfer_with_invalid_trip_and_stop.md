@@ -3,7 +3,7 @@ type: Validation Rule
 title: transfer_with_invalid_trip_and_stop
 description: A trip id field from GTFS file `transfers.txt` references a stop that
   is not included in the referenced trip's stop-times.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_trip_and_stop
+resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_trip_and_stop-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [transfer_with_invalid_trip_and_stop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_trip_and_stop)
+[1] [transfer_with_invalid_trip_and_stop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_trip_and_stop-rule)

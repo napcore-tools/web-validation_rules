@@ -2,7 +2,7 @@
 type: Validation Rule
 title: u_r_i_syntax_error
 description: A string could not be parsed as a URI reference.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#u_r_i_syntax_error
+resource: https://gtfs-validator.mobilitydata.org/rules.html#u_r_i_syntax_error-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [u_r_i_syntax_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#u_r_i_syntax_error)
+[1] [u_r_i_syntax_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#u_r_i_syntax_error-rule)

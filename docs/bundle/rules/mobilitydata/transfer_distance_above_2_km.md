@@ -3,7 +3,7 @@ type: Validation Rule
 title: transfer_distance_above_2_km
 description: The transfer distance from stop to stop in `transfers.txt` is larger
   than 2 km.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_above_2_km
+resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_above_2_km-rule
 tags:
 - mobilitydata
 - gtfs
@@ -27,4 +27,4 @@ maturity: draft
 
 # Citations
 
-[1] [transfer_distance_above_2_km rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_above_2_km)
+[1] [transfer_distance_above_2_km rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_distance_above_2_km-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: same_name_and_description_for_route
 description: Same name and description for route.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_route
+resource: https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_route-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [same_name_and_description_for_route rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_route)
+[1] [same_name_and_description_for_route rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_name_and_description_for_route-rule)

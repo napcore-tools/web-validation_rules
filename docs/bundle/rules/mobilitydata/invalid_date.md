@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_date
 description: A field cannot be parsed as date.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_date
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_date-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_date rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_date)
+[1] [invalid_date rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_date-rule)

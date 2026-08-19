@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_row_length
 description: Invalid csv row length.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_row_length
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_row_length-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_row_length rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_row_length)
+[1] [invalid_row_length rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_row_length-rule)

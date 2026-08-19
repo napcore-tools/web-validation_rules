@@ -3,7 +3,7 @@ type: Validation Rule
 title: missing_feed_contact_email_and_url
 description: Best Practices for `feed_info.txt` suggest providing at least one of
   `feed_contact_email` and `feed_contact_url`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_contact_email_and_url
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_contact_email_and_url-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_feed_contact_email_and_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_contact_email_and_url)
+[1] [missing_feed_contact_email_and_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_contact_email_and_url-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_recommended_column
 description: A recommended column is missing in the input file.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_column
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_column-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ severity: null
 
 # Citations
 
-[1] [missing_recommended_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_column)
+[1] [missing_recommended_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_column-rule)

@@ -3,7 +3,7 @@ type: Validation Rule
 title: trip_headsign_matches_intermediate_stop
 description: Trip headsign matches the name of an intermediate stop, not the last
   stop.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_headsign_matches_intermediate_stop
+resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_headsign_matches_intermediate_stop-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [trip_headsign_matches_intermediate_stop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_headsign_matches_intermediate_stop)
+[1] [trip_headsign_matches_intermediate_stop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_headsign_matches_intermediate_stop-rule)

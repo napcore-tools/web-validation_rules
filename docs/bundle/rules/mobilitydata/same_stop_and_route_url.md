@@ -2,7 +2,7 @@
 type: Validation Rule
 title: same_stop_and_route_url
 description: Same `stops.stop_url` and `routes.route_url`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#same_stop_and_route_url
+resource: https://gtfs-validator.mobilitydata.org/rules.html#same_stop_and_route_url-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [same_stop_and_route_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_stop_and_route_url)
+[1] [same_stop_and_route_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#same_stop_and_route_url-rule)

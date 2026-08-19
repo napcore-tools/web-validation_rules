@@ -2,7 +2,7 @@
 type: Validation Rule
 title: block_trips_with_overlapping_stop_times
 description: Trips with the same block id have overlapping stop times.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#block_trips_with_overlapping_stop_times
+resource: https://gtfs-validator.mobilitydata.org/rules.html#block_trips_with_overlapping_stop_times-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [block_trips_with_overlapping_stop_times rule reference](https://gtfs-validator.mobilitydata.org/rules.html#block_trips_with_overlapping_stop_times)
+[1] [block_trips_with_overlapping_stop_times rule reference](https://gtfs-validator.mobilitydata.org/rules.html#block_trips_with_overlapping_stop_times-rule)

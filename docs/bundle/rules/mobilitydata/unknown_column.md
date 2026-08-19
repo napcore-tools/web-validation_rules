@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unknown_column
 description: A column name is unknown.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unknown_column
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unknown_column-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unknown_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unknown_column)
+[1] [unknown_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unknown_column-rule)

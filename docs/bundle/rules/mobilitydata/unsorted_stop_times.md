@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unsorted_stop_times
 description: Stop times are not sorted by trip_id and stop_sequence.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unsorted_stop_times
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unsorted_stop_times-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unsorted_stop_times rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unsorted_stop_times)
+[1] [unsorted_stop_times rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unsorted_stop_times-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: forbidden_shape_dist_traveled
 description: A stop_time entry has a `shape_dist_traveled` without a `stop_id` value.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_shape_dist_traveled
+resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_shape_dist_traveled-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [forbidden_shape_dist_traveled rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_shape_dist_traveled)
+[1] [forbidden_shape_dist_traveled rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_shape_dist_traveled-rule)

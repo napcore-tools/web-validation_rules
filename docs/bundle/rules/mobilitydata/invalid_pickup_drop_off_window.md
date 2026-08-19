@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_pickup_drop_off_window
 description: The pickup/drop-off window in `stop_times.txt` is invalid.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_pickup_drop_off_window
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_pickup_drop_off_window-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_pickup_drop_off_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_pickup_drop_off_window)
+[1] [invalid_pickup_drop_off_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_pickup_drop_off_window-rule)

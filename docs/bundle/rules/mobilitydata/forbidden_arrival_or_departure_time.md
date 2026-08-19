@@ -3,7 +3,7 @@ type: Validation Rule
 title: forbidden_arrival_or_departure_time
 description: The arrival or departure times are provided alongside pickup or drop-off
   windows in `stop_times.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_arrival_or_departure_time
+resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_arrival_or_departure_time-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [forbidden_arrival_or_departure_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_arrival_or_departure_time)
+[1] [forbidden_arrival_or_departure_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_arrival_or_departure_time-rule)

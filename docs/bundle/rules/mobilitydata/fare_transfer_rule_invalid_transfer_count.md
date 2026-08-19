@@ -3,7 +3,7 @@ type: Validation Rule
 title: fare_transfer_rule_invalid_transfer_count
 description: A row from GTFS file `fare_transfer_rules.txt` has a defined `transfer_count`
   with an invalid value.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_invalid_transfer_count
+resource: https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_invalid_transfer_count-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [fare_transfer_rule_invalid_transfer_count rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_invalid_transfer_count)
+[1] [fare_transfer_rule_invalid_transfer_count rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fare_transfer_rule_invalid_transfer_count-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: pathway_to_platform_with_boarding_areas
 description: A pathway has an endpoint that is a platform which has boarding areas.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_platform_with_boarding_areas
+resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_platform_with_boarding_areas-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [pathway_to_platform_with_boarding_areas rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_platform_with_boarding_areas)
+[1] [pathway_to_platform_with_boarding_areas rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_platform_with_boarding_areas-rule)

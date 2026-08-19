@@ -2,7 +2,7 @@
 type: Validation Rule
 title: pathway_loop
 description: A pathway starts and ends at the same location.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_loop
+resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_loop-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [pathway_loop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_loop)
+[1] [pathway_loop rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_loop-rule)

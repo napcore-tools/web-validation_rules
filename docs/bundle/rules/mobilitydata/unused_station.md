@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unused_station
 description: Unused station.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unused_station
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unused_station-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unused_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unused_station)
+[1] [unused_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unused_station-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: new_line_in_value
 description: New line or carriage return in a value in CSV file.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#new_line_in_value
+resource: https://gtfs-validator.mobilitydata.org/rules.html#new_line_in_value-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [new_line_in_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#new_line_in_value)
+[1] [new_line_in_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#new_line_in_value-rule)

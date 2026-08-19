@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_required_element
 description: A required element is missing in `locations.geojson`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_element
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_element-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_required_element rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_element)
+[1] [missing_required_element rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_element-rule)

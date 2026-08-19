@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unusable_trip
 description: Trips must have more than one stop to be usable.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unusable_trip
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unusable_trip-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unusable_trip rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unusable_trip)
+[1] [unusable_trip rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unusable_trip-rule)

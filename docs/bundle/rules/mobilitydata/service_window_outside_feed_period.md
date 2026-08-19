@@ -2,7 +2,7 @@
 type: Validation Rule
 title: service_window_outside_feed_period
 description: A service window is not covered by the feed's validity period.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#service_window_outside_feed_period
+resource: https://gtfs-validator.mobilitydata.org/rules.html#service_window_outside_feed_period-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [service_window_outside_feed_period rule reference](https://gtfs-validator.mobilitydata.org/rules.html#service_window_outside_feed_period)
+[1] [service_window_outside_feed_period rule reference](https://gtfs-validator.mobilitydata.org/rules.html#service_window_outside_feed_period-rule)

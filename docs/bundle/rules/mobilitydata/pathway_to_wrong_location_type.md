@@ -2,7 +2,7 @@
 type: Validation Rule
 title: pathway_to_wrong_location_type
 description: A pathway has an endpoint that is a station.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_wrong_location_type
+resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_wrong_location_type-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [pathway_to_wrong_location_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_wrong_location_type)
+[1] [pathway_to_wrong_location_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_to_wrong_location_type-rule)

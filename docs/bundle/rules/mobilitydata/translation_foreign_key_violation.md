@@ -3,7 +3,7 @@ type: Validation Rule
 title: translation_foreign_key_violation
 description: An entity with the given `record_id` and `record_sub_id` cannot be found
   in the referenced table.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#translation_foreign_key_violation
+resource: https://gtfs-validator.mobilitydata.org/rules.html#translation_foreign_key_violation-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [translation_foreign_key_violation rule reference](https://gtfs-validator.mobilitydata.org/rules.html#translation_foreign_key_violation)
+[1] [translation_foreign_key_violation rule reference](https://gtfs-validator.mobilitydata.org/rules.html#translation_foreign_key_violation-rule)

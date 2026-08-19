@@ -2,7 +2,7 @@
 type: Validation Rule
 title: forbidden_real_time_booking_field_value
 description: A forbidden field value is present for a real-time booking rule in `booking_rules.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_real_time_booking_field_value
+resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_real_time_booking_field_value-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [forbidden_real_time_booking_field_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_real_time_booking_field_value)
+[1] [forbidden_real_time_booking_field_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_real_time_booking_field_value-rule)

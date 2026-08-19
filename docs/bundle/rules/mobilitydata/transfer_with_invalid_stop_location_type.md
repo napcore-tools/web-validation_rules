@@ -3,7 +3,7 @@ type: Validation Rule
 title: transfer_with_invalid_stop_location_type
 description: A stop id field from GTFS file `transfers.txt` references a stop that
   has a `location_type` other than 0 or 1 (aka Stop/Platform or Station).
-resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_stop_location_type
+resource: https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_stop_location_type-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [transfer_with_invalid_stop_location_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_stop_location_type)
+[1] [transfer_with_invalid_stop_location_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#transfer_with_invalid_stop_location_type-rule)

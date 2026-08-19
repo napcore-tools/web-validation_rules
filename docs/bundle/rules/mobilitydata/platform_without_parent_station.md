@@ -2,7 +2,7 @@
 type: Validation Rule
 title: platform_without_parent_station
 description: A platform has no `parent_station` field set.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#platform_without_parent_station
+resource: https://gtfs-validator.mobilitydata.org/rules.html#platform_without_parent_station-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [platform_without_parent_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#platform_without_parent_station)
+[1] [platform_without_parent_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#platform_without_parent_station-rule)

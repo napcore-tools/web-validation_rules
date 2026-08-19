@@ -2,7 +2,7 @@
 type: Validation Rule
 title: point_near_origin
 description: A point is too close to origin `(0, 0)`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#point_near_origin
+resource: https://gtfs-validator.mobilitydata.org/rules.html#point_near_origin-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [point_near_origin rule reference](https://gtfs-validator.mobilitydata.org/rules.html#point_near_origin)
+[1] [point_near_origin rule reference](https://gtfs-validator.mobilitydata.org/rules.html#point_near_origin-rule)

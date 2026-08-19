@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_bike_allowance
 description: Ferry trips should include bike allowance information.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_bike_allowance
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_bike_allowance-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_bike_allowance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_bike_allowance)
+[1] [missing_bike_allowance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_bike_allowance-rule)

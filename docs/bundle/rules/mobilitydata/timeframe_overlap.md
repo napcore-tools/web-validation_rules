@@ -3,7 +3,7 @@ type: Validation Rule
 title: timeframe_overlap
 description: Two entries in `timeframes.txt` with the same `timeframe_group_id` and
   `service_id` have overlapping time intervals.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#timeframe_overlap
+resource: https://gtfs-validator.mobilitydata.org/rules.html#timeframe_overlap-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [timeframe_overlap rule reference](https://gtfs-validator.mobilitydata.org/rules.html#timeframe_overlap)
+[1] [timeframe_overlap rule reference](https://gtfs-validator.mobilitydata.org/rules.html#timeframe_overlap-rule)

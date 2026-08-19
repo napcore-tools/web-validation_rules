@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_required_column
 description: A required column is missing in the input file.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_column
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_column-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_required_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_column)
+[1] [missing_required_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_column-rule)

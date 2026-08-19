@@ -2,7 +2,7 @@
 type: Validation Rule
 title: stop_access_specified_for_stop_with_no_parent_station
 description: A stop without a value for parent station has stop_access specified.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_access_specified_for_stop_with_no_parent_station
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_access_specified_for_stop_with_no_parent_station-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [stop_access_specified_for_stop_with_no_parent_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_access_specified_for_stop_with_no_parent_station)
+[1] [stop_access_specified_for_stop_with_no_parent_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_access_specified_for_stop_with_no_parent_station-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: decreasing_or_equal_stop_time_distance
 description: Decreasing or equal `shape_dist_traveled` in `stop_times.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#decreasing_or_equal_stop_time_distance
+resource: https://gtfs-validator.mobilitydata.org/rules.html#decreasing_or_equal_stop_time_distance-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [decreasing_or_equal_stop_time_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#decreasing_or_equal_stop_time_distance)
+[1] [decreasing_or_equal_stop_time_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#decreasing_or_equal_stop_time_distance-rule)

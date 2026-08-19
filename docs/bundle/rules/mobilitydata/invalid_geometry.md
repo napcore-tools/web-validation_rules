@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_geometry
 description: A polygon in `locations.geojson` is unparsable or invalid.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_geometry
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_geometry-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_geometry rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_geometry)
+[1] [invalid_geometry rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_geometry-rule)

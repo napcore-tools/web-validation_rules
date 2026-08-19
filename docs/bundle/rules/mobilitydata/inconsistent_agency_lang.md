@@ -2,7 +2,7 @@
 type: Validation Rule
 title: inconsistent_agency_lang
 description: Inconsistent language among agencies.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_lang
+resource: https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_lang-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [inconsistent_agency_lang rule reference](https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_lang)
+[1] [inconsistent_agency_lang rule reference](https://gtfs-validator.mobilitydata.org/rules.html#inconsistent_agency_lang-rule)

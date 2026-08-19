@@ -2,7 +2,7 @@
 type: Validation Rule
 title: decreasing_shape_distance
 description: Decreasing `shape_dist_traveled` in `shapes.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#decreasing_shape_distance
+resource: https://gtfs-validator.mobilitydata.org/rules.html#decreasing_shape_distance-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [decreasing_shape_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#decreasing_shape_distance)
+[1] [decreasing_shape_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#decreasing_shape_distance-rule)

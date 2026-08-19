@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_required_agency_id
 description: Agency id is required when there are multiple agencies.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_agency_id
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_required_agency_id-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_required_agency_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_agency_id)
+[1] [missing_required_agency_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_required_agency_id-rule)

@@ -3,7 +3,7 @@ type: Validation Rule
 title: future_calendar
 description: All services in the feed start in the future; no service covers today's
   date.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#future_calendar
+resource: https://gtfs-validator.mobilitydata.org/rules.html#future_calendar-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [future_calendar rule reference](https://gtfs-validator.mobilitydata.org/rules.html#future_calendar)
+[1] [future_calendar rule reference](https://gtfs-validator.mobilitydata.org/rules.html#future_calendar-rule)

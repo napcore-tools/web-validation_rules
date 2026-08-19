@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_level_id
 description: '`stops.level_id` is conditionally required.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_level_id
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_level_id-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_level_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_level_id)
+[1] [missing_level_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_level_id-rule)

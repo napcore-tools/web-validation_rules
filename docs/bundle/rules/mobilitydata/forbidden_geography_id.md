@@ -2,7 +2,7 @@
 type: Validation Rule
 title: forbidden_geography_id
 description: A stop_time entry has more than one geographical id defined.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_geography_id
+resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_geography_id-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [forbidden_geography_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_geography_id)
+[1] [forbidden_geography_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_geography_id-rule)

@@ -4,7 +4,7 @@ title: trip_with_shape_dist_traveled_but_no_shape_distances
 description: A trip has shape_dist_traveled values in stop_times.txt but the shape
   referenced by the trip's shape_id does not have shape_dist_traveled values on all
   of its points in shapes.txt.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_with_shape_dist_traveled_but_no_shape_distances
+resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_with_shape_dist_traveled_but_no_shape_distances-rule
 tags:
 - mobilitydata
 - gtfs
@@ -24,4 +24,4 @@ maturity: draft
 
 # Citations
 
-[1] [trip_with_shape_dist_traveled_but_no_shape_distances rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_with_shape_dist_traveled_but_no_shape_distances)
+[1] [trip_with_shape_dist_traveled_but_no_shape_distances rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_with_shape_dist_traveled_but_no_shape_distances-rule)

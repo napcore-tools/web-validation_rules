@@ -2,7 +2,7 @@
 type: Validation Rule
 title: stop_too_far_from_shape_using_user_distance
 description: Stop time too far from shape.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape_using_user_distance
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape_using_user_distance-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [stop_too_far_from_shape_using_user_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape_using_user_distance)
+[1] [stop_too_far_from_shape_using_user_distance rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_too_far_from_shape_using_user_distance-rule)

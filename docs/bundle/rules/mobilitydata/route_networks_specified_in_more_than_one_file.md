@@ -3,7 +3,7 @@ type: Validation Rule
 title: route_networks_specified_in_more_than_one_file
 description: Indicates that route network identifiers are specified across multiple
   files.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#route_networks_specified_in_more_than_one_file
+resource: https://gtfs-validator.mobilitydata.org/rules.html#route_networks_specified_in_more_than_one_file-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [route_networks_specified_in_more_than_one_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_networks_specified_in_more_than_one_file)
+[1] [route_networks_specified_in_more_than_one_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_networks_specified_in_more_than_one_file-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: single_shape_point
 description: The shape within `shapes.txt` contains a single shape point.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#single_shape_point
+resource: https://gtfs-validator.mobilitydata.org/rules.html#single_shape_point-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [single_shape_point rule reference](https://gtfs-validator.mobilitydata.org/rules.html#single_shape_point)
+[1] [single_shape_point rule reference](https://gtfs-validator.mobilitydata.org/rules.html#single_shape_point-rule)

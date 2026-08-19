@@ -3,7 +3,7 @@ type: Validation Rule
 title: equal_shape_distance_same_coordinates
 description: Two consecutive points have equal `shape_dist_traveled` and the same
   lat/lon coordinates in `shapes.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_same_coordinates
+resource: https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_same_coordinates-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [equal_shape_distance_same_coordinates rule reference](https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_same_coordinates)
+[1] [equal_shape_distance_same_coordinates rule reference](https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_same_coordinates-rule)

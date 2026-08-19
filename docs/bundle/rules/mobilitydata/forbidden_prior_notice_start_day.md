@@ -3,7 +3,7 @@ type: Validation Rule
 title: forbidden_prior_notice_start_day
 description: '`prior_notice_start_day` value is forbidden when `prior_notice_duration_max`
   is set.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_prior_notice_start_day
+resource: https://gtfs-validator.mobilitydata.org/rules.html#forbidden_prior_notice_start_day-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [forbidden_prior_notice_start_day rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_prior_notice_start_day)
+[1] [forbidden_prior_notice_start_day rule reference](https://gtfs-validator.mobilitydata.org/rules.html#forbidden_prior_notice_start_day-rule)

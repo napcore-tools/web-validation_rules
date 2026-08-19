@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_timezone
 description: A field cannot be parsed as a timezone.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_timezone
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_timezone-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_timezone rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_timezone)
+[1] [invalid_timezone rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_timezone-rule)

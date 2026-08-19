@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_recommended_file
 description: A recommended file is missing.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_file
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_file-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_recommended_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_file)
+[1] [missing_recommended_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_recommended_file-rule)

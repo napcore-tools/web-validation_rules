@@ -2,7 +2,7 @@
 type: Validation Rule
 title: bidirectional_exit_gate
 description: Pathway is bidirectional and has mode 7 (exit gate).
-resource: https://gtfs-validator.mobilitydata.org/rules.html#bidirectional_exit_gate
+resource: https://gtfs-validator.mobilitydata.org/rules.html#bidirectional_exit_gate-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [bidirectional_exit_gate rule reference](https://gtfs-validator.mobilitydata.org/rules.html#bidirectional_exit_gate)
+[1] [bidirectional_exit_gate rule reference](https://gtfs-validator.mobilitydata.org/rules.html#bidirectional_exit_gate-rule)

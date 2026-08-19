@@ -3,7 +3,7 @@ type: Validation Rule
 title: invalid_prior_notice_duration_min
 description: An invalid `prior_notice_duration_min` value is present in a booking
   rule.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_prior_notice_duration_min
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_prior_notice_duration_min-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_prior_notice_duration_min rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_prior_notice_duration_min)
+[1] [invalid_prior_notice_duration_min rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_prior_notice_duration_min-rule)

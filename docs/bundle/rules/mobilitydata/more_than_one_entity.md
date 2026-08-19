@@ -2,7 +2,7 @@
 type: Validation Rule
 title: more_than_one_entity
 description: More than one row in CSV.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#more_than_one_entity
+resource: https://gtfs-validator.mobilitydata.org/rules.html#more_than_one_entity-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [more_than_one_entity rule reference](https://gtfs-validator.mobilitydata.org/rules.html#more_than_one_entity)
+[1] [more_than_one_entity rule reference](https://gtfs-validator.mobilitydata.org/rules.html#more_than_one_entity-rule)

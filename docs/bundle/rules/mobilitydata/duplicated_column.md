@@ -2,7 +2,7 @@
 type: Validation Rule
 title: duplicated_column
 description: Duplicated column in CSV.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicated_column
+resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicated_column-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [duplicated_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicated_column)
+[1] [duplicated_column rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicated_column-rule)

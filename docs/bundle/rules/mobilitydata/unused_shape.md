@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unused_shape
 description: Shape is not used in GTFS file `trips.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unused_shape
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unused_shape-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unused_shape rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unused_shape)
+[1] [unused_shape rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unused_shape-rule)

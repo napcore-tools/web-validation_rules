@@ -2,7 +2,7 @@
 type: Validation Rule
 title: feed_info_lang_and_agency_lang_mismatch
 description: Mismatching feed and agency language fields.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#feed_info_lang_and_agency_lang_mismatch
+resource: https://gtfs-validator.mobilitydata.org/rules.html#feed_info_lang_and_agency_lang_mismatch-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [feed_info_lang_and_agency_lang_mismatch rule reference](https://gtfs-validator.mobilitydata.org/rules.html#feed_info_lang_and_agency_lang_mismatch)
+[1] [feed_info_lang_and_agency_lang_mismatch rule reference](https://gtfs-validator.mobilitydata.org/rules.html#feed_info_lang_and_agency_lang_mismatch-rule)

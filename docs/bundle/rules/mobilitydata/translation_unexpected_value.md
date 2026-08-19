@@ -2,7 +2,7 @@
 type: Validation Rule
 title: translation_unexpected_value
 description: A field in a translations row has value but must be empty.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#translation_unexpected_value
+resource: https://gtfs-validator.mobilitydata.org/rules.html#translation_unexpected_value-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [translation_unexpected_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#translation_unexpected_value)
+[1] [translation_unexpected_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#translation_unexpected_value-rule)

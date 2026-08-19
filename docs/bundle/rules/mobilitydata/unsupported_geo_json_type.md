@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unsupported_geo_json_type
 description: An unsupported GeoJSON type is used in the `locations.geojson` file.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geo_json_type
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geo_json_type-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unsupported_geo_json_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geo_json_type)
+[1] [unsupported_geo_json_type rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unsupported_geo_json_type-rule)

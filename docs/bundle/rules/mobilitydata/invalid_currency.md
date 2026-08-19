@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_currency
 description: A field contains a wrong currency code.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_currency rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency)
+[1] [invalid_currency rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency-rule)

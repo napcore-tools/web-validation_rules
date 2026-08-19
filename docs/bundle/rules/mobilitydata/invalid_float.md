@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_float
 description: A field cannot be parsed as a floating point number.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_float
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_float-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_float rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_float)
+[1] [invalid_float rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_float-rule)

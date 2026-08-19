@@ -2,7 +2,7 @@
 type: Validation Rule
 title: timeframe_start_or_end_time_greater_than_twenty_four_hours
 description: A time in `timeframes.txt` is greater than `24:00:00`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#timeframe_start_or_end_time_greater_than_twenty_four_hours
+resource: https://gtfs-validator.mobilitydata.org/rules.html#timeframe_start_or_end_time_greater_than_twenty_four_hours-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [timeframe_start_or_end_time_greater_than_twenty_four_hours rule reference](https://gtfs-validator.mobilitydata.org/rules.html#timeframe_start_or_end_time_greater_than_twenty_four_hours)
+[1] [timeframe_start_or_end_time_greater_than_twenty_four_hours rule reference](https://gtfs-validator.mobilitydata.org/rules.html#timeframe_start_or_end_time_greater_than_twenty_four_hours-rule)

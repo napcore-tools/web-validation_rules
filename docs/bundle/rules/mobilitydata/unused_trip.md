@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unused_trip
 description: Trip is not be used in `stop_times.txt`
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unused_trip
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unused_trip-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unused_trip rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unused_trip)
+[1] [unused_trip rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unused_trip-rule)

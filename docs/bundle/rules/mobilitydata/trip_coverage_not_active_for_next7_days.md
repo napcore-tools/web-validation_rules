@@ -2,7 +2,7 @@
 type: Validation Rule
 title: trip_coverage_not_active_for_next7_days
 description: Trips data should be valid for at least the next seven days.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_coverage_not_active_for_next7_days
+resource: https://gtfs-validator.mobilitydata.org/rules.html#trip_coverage_not_active_for_next7_days-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [trip_coverage_not_active_for_next7_days rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_coverage_not_active_for_next7_days)
+[1] [trip_coverage_not_active_for_next7_days rule reference](https://gtfs-validator.mobilitydata.org/rules.html#trip_coverage_not_active_for_next7_days-rule)

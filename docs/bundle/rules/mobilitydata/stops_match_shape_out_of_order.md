@@ -3,7 +3,7 @@ type: Validation Rule
 title: stops_match_shape_out_of_order
 description: Two stop entries are different than their arrival-departure order defined
   by `shapes.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stops_match_shape_out_of_order
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stops_match_shape_out_of_order-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [stops_match_shape_out_of_order rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stops_match_shape_out_of_order)
+[1] [stops_match_shape_out_of_order rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stops_match_shape_out_of_order-rule)

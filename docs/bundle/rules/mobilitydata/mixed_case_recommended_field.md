@@ -3,7 +3,7 @@ type: Validation Rule
 title: mixed_case_recommended_field
 description: This field has customer-facing text and should use Mixed Case (should
   contain upper and lower case letters).
-resource: https://gtfs-validator.mobilitydata.org/rules.html#mixed_case_recommended_field
+resource: https://gtfs-validator.mobilitydata.org/rules.html#mixed_case_recommended_field-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [mixed_case_recommended_field rule reference](https://gtfs-validator.mobilitydata.org/rules.html#mixed_case_recommended_field)
+[1] [mixed_case_recommended_field rule reference](https://gtfs-validator.mobilitydata.org/rules.html#mixed_case_recommended_field-rule)

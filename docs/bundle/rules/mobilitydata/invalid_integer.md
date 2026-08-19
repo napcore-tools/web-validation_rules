@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_integer
 description: A field cannot be parsed as an integer.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_integer
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_integer-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_integer rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_integer)
+[1] [invalid_integer rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_integer-rule)

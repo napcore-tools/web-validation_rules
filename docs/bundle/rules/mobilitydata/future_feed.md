@@ -2,7 +2,7 @@
 type: Validation Rule
 title: future_feed
 description: The feed covers the future only.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#future_feed
+resource: https://gtfs-validator.mobilitydata.org/rules.html#future_feed-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [future_feed rule reference](https://gtfs-validator.mobilitydata.org/rules.html#future_feed)
+[1] [future_feed rule reference](https://gtfs-validator.mobilitydata.org/rules.html#future_feed-rule)

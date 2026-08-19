@@ -3,7 +3,7 @@ type: Validation Rule
 title: duplicate_route_name
 description: Two distinct routes have either the same `route_short_name`, the same
   `route_long_name`, or the same combination of `route_short_name` and `route_long_name`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_route_name
+resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_route_name-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [duplicate_route_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_route_name)
+[1] [duplicate_route_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_route_name-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: start_and_end_range_out_of_order
 description: Two date or time fields are out of order.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_out_of_order
+resource: https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_out_of_order-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [start_and_end_range_out_of_order rule reference](https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_out_of_order)
+[1] [start_and_end_range_out_of_order rule reference](https://gtfs-validator.mobilitydata.org/rules.html#start_and_end_range_out_of_order-rule)

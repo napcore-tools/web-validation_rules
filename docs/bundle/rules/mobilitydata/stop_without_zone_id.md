@@ -3,7 +3,7 @@ type: Validation Rule
 title: stop_without_zone_id
 description: Stop without value for `stops.zone_id` contained in a route with a zone-dependent
   fare rule.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_without_zone_id
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_without_zone_id-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [stop_without_zone_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_without_zone_id)
+[1] [stop_without_zone_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_without_zone_id-rule)

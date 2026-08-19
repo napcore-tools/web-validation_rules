@@ -2,7 +2,7 @@
 type: Validation Rule
 title: fast_travel_between_consecutive_stops
 description: A transit vehicle moves too fast between two consecutive stops.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#fast_travel_between_consecutive_stops
+resource: https://gtfs-validator.mobilitydata.org/rules.html#fast_travel_between_consecutive_stops-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [fast_travel_between_consecutive_stops rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fast_travel_between_consecutive_stops)
+[1] [fast_travel_between_consecutive_stops rule reference](https://gtfs-validator.mobilitydata.org/rules.html#fast_travel_between_consecutive_stops-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: service_extends_far_in_the_future
 description: A service end date is more than 2 years in the future.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#service_extends_far_in_the_future
+resource: https://gtfs-validator.mobilitydata.org/rules.html#service_extends_far_in_the_future-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [service_extends_far_in_the_future rule reference](https://gtfs-validator.mobilitydata.org/rules.html#service_extends_far_in_the_future)
+[1] [service_extends_far_in_the_future rule reference](https://gtfs-validator.mobilitydata.org/rules.html#service_extends_far_in_the_future-rule)

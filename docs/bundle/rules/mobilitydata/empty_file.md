@@ -2,7 +2,7 @@
 type: Validation Rule
 title: empty_file
 description: A CSV file is empty.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#empty_file
+resource: https://gtfs-validator.mobilitydata.org/rules.html#empty_file-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [empty_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#empty_file)
+[1] [empty_file rule reference](https://gtfs-validator.mobilitydata.org/rules.html#empty_file-rule)

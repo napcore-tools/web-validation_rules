@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_trip_edge
 description: Missing trip edge `arrival_time` or `departure_time`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_trip_edge
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_trip_edge-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_trip_edge rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_trip_edge)
+[1] [missing_trip_edge rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_trip_edge-rule)

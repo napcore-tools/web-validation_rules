@@ -2,7 +2,7 @@
 type: Validation Rule
 title: translation_unknown_table_name
 description: A translation references an unknown or missing GTFS table.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#translation_unknown_table_name
+resource: https://gtfs-validator.mobilitydata.org/rules.html#translation_unknown_table_name-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [translation_unknown_table_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#translation_unknown_table_name)
+[1] [translation_unknown_table_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#translation_unknown_table_name-rule)

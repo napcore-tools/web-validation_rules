@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_color
 description: A field contains an invalid color value.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_color
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_color-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_color rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_color)
+[1] [invalid_color rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_color-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: point_near_pole
 description: A point is too close to the North or South Pole.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#point_near_pole
+resource: https://gtfs-validator.mobilitydata.org/rules.html#point_near_pole-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [point_near_pole rule reference](https://gtfs-validator.mobilitydata.org/rules.html#point_near_pole)
+[1] [point_near_pole rule reference](https://gtfs-validator.mobilitydata.org/rules.html#point_near_pole-rule)

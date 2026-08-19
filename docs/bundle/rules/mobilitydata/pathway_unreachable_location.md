@@ -3,7 +3,7 @@ type: Validation Rule
 title: pathway_unreachable_location
 description: 'A location is not reachable at least in one direction: from the entrances
   or to the exits.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_unreachable_location
+resource: https://gtfs-validator.mobilitydata.org/rules.html#pathway_unreachable_location-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [pathway_unreachable_location rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_unreachable_location)
+[1] [pathway_unreachable_location rule reference](https://gtfs-validator.mobilitydata.org/rules.html#pathway_unreachable_location-rule)

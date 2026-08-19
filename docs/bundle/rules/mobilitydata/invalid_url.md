@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_url
 description: A field contains a malformed URL.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_url
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_url-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_url)
+[1] [invalid_url rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_url-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: runtime_exception_in_validator_error
 description: RuntimeException while validating GTFS archive.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_validator_error
+resource: https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_validator_error-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [runtime_exception_in_validator_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_validator_error)
+[1] [runtime_exception_in_validator_error rule reference](https://gtfs-validator.mobilitydata.org/rules.html#runtime_exception_in_validator_error-rule)

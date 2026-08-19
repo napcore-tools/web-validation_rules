@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_feed_info_date
 description: One of `feed_start_date` or `feed_end_date` is specified, but not both.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_info_date
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_info_date-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_feed_info_date rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_info_date)
+[1] [missing_feed_info_date rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_feed_info_date-rule)

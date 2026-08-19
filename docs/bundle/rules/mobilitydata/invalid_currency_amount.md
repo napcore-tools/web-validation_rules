@@ -3,7 +3,7 @@ type: Validation Rule
 title: invalid_currency_amount
 description: A currency amount field has a value that does not match the format of
   its corresponding currency code field.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency_amount
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency_amount-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_currency_amount rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency_amount)
+[1] [invalid_currency_amount rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_currency_amount-rule)

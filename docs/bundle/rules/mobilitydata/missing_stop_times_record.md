@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_stop_times_record
 description: Only one stop_times record is found where two are required.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_times_record
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_times_record-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_stop_times_record rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_times_record)
+[1] [missing_stop_times_record rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_stop_times_record-rule)

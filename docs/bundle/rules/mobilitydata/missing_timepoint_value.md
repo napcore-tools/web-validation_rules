@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_timepoint_value
 description: '`stop_times.timepoint` value is missing for a record.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_timepoint_value
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_timepoint_value-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_timepoint_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_timepoint_value)
+[1] [missing_timepoint_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_timepoint_value-rule)

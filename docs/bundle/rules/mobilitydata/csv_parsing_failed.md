@@ -2,7 +2,7 @@
 type: Validation Rule
 title: csv_parsing_failed
 description: Parsing of a CSV file failed.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#csv_parsing_failed
+resource: https://gtfs-validator.mobilitydata.org/rules.html#csv_parsing_failed-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [csv_parsing_failed rule reference](https://gtfs-validator.mobilitydata.org/rules.html#csv_parsing_failed)
+[1] [csv_parsing_failed rule reference](https://gtfs-validator.mobilitydata.org/rules.html#csv_parsing_failed-rule)

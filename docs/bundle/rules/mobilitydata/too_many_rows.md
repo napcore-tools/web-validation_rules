@@ -2,7 +2,7 @@
 type: Validation Rule
 title: too_many_rows
 description: A CSV file has too many rows.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#too_many_rows
+resource: https://gtfs-validator.mobilitydata.org/rules.html#too_many_rows-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [too_many_rows rule reference](https://gtfs-validator.mobilitydata.org/rules.html#too_many_rows)
+[1] [too_many_rows rule reference](https://gtfs-validator.mobilitydata.org/rules.html#too_many_rows-rule)

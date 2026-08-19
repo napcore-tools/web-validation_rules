@@ -2,7 +2,7 @@
 type: Validation Rule
 title: overlapping_zone_and_pickup_drop_off_window
 description: Two entities have overlapping pickup/drop-off windows and zones.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#overlapping_zone_and_pickup_drop_off_window
+resource: https://gtfs-validator.mobilitydata.org/rules.html#overlapping_zone_and_pickup_drop_off_window-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [overlapping_zone_and_pickup_drop_off_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#overlapping_zone_and_pickup_drop_off_window)
+[1] [overlapping_zone_and_pickup_drop_off_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#overlapping_zone_and_pickup_drop_off_window-rule)

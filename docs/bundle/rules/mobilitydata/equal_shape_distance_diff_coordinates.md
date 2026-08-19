@@ -4,7 +4,7 @@ title: equal_shape_distance_diff_coordinates
 description: Two consecutive points have equal `shape_dist_traveled` and different
   lat/lon coordinates in `shapes.txt` and the distance between the two points is greater
   than the 1.11m.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_diff_coordinates
+resource: https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_diff_coordinates-rule
 tags:
 - mobilitydata
 - gtfs
@@ -28,4 +28,4 @@ maturity: draft
 
 # Citations
 
-[1] [equal_shape_distance_diff_coordinates rule reference](https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_diff_coordinates)
+[1] [equal_shape_distance_diff_coordinates rule reference](https://gtfs-validator.mobilitydata.org/rules.html#equal_shape_distance_diff_coordinates-rule)

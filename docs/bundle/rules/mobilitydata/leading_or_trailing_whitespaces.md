@@ -2,7 +2,7 @@
 type: Validation Rule
 title: leading_or_trailing_whitespaces
 description: The value in CSV file has leading or trailing whitespaces.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#leading_or_trailing_whitespaces
+resource: https://gtfs-validator.mobilitydata.org/rules.html#leading_or_trailing_whitespaces-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [leading_or_trailing_whitespaces rule reference](https://gtfs-validator.mobilitydata.org/rules.html#leading_or_trailing_whitespaces)
+[1] [leading_or_trailing_whitespaces rule reference](https://gtfs-validator.mobilitydata.org/rules.html#leading_or_trailing_whitespaces-rule)

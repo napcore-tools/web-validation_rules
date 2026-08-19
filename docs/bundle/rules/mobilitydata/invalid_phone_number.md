@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_phone_number
 description: A field contains a malformed phone number.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_phone_number
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_phone_number-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_phone_number rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_phone_number)
+[1] [invalid_phone_number rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_phone_number-rule)

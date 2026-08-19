@@ -2,7 +2,7 @@
 type: Validation Rule
 title: feed_expiration_date30_days
 description: Dataset should cover at least the next 30 days of service.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#feed_expiration_date30_days
+resource: https://gtfs-validator.mobilitydata.org/rules.html#feed_expiration_date30_days-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [feed_expiration_date30_days rule reference](https://gtfs-validator.mobilitydata.org/rules.html#feed_expiration_date30_days)
+[1] [feed_expiration_date30_days rule reference](https://gtfs-validator.mobilitydata.org/rules.html#feed_expiration_date30_days-rule)

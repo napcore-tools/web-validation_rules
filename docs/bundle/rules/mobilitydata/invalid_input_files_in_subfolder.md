@@ -2,7 +2,7 @@
 type: Validation Rule
 title: invalid_input_files_in_subfolder
 description: At least 1 GTFS file is in a subfolder.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_input_files_in_subfolder
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_input_files_in_subfolder-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_input_files_in_subfolder rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_input_files_in_subfolder)
+[1] [invalid_input_files_in_subfolder rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_input_files_in_subfolder-rule)

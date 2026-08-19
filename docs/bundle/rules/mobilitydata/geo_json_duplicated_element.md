@@ -2,7 +2,7 @@
 type: Validation Rule
 title: geo_json_duplicated_element
 description: Duplicated elements in locations.geojson file.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#geo_json_duplicated_element
+resource: https://gtfs-validator.mobilitydata.org/rules.html#geo_json_duplicated_element-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [geo_json_duplicated_element rule reference](https://gtfs-validator.mobilitydata.org/rules.html#geo_json_duplicated_element)
+[1] [geo_json_duplicated_element rule reference](https://gtfs-validator.mobilitydata.org/rules.html#geo_json_duplicated_element-rule)

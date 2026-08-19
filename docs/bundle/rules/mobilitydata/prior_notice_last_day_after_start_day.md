@@ -3,7 +3,7 @@ type: Validation Rule
 title: prior_notice_last_day_after_start_day
 description: Prior notice last day should not be greater than the prior notice start
   day in booking_rules.txt.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#prior_notice_last_day_after_start_day
+resource: https://gtfs-validator.mobilitydata.org/rules.html#prior_notice_last_day_after_start_day-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [prior_notice_last_day_after_start_day rule reference](https://gtfs-validator.mobilitydata.org/rules.html#prior_notice_last_day_after_start_day)
+[1] [prior_notice_last_day_after_start_day rule reference](https://gtfs-validator.mobilitydata.org/rules.html#prior_notice_last_day_after_start_day-rule)

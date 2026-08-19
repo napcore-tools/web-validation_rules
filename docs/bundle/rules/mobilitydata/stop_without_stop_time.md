@@ -2,7 +2,7 @@
 type: Validation Rule
 title: stop_without_stop_time
 description: A stop in `stops.txt` is not referenced by any `stop_times.stop_id`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_without_stop_time
+resource: https://gtfs-validator.mobilitydata.org/rules.html#stop_without_stop_time-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [stop_without_stop_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_without_stop_time)
+[1] [stop_without_stop_time rule reference](https://gtfs-validator.mobilitydata.org/rules.html#stop_without_stop_time-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: duplicate_key
 description: Duplicated entity.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_key
+resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_key-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [duplicate_key rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_key)
+[1] [duplicate_key rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_key-rule)

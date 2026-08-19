@@ -3,7 +3,7 @@ type: Validation Rule
 title: expired_calendar
 description: Dataset should not contain date ranges for services that have already
   expired.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#expired_calendar
+resource: https://gtfs-validator.mobilitydata.org/rules.html#expired_calendar-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [expired_calendar rule reference](https://gtfs-validator.mobilitydata.org/rules.html#expired_calendar)
+[1] [expired_calendar rule reference](https://gtfs-validator.mobilitydata.org/rules.html#expired_calendar-rule)

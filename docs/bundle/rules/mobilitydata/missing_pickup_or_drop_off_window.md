@@ -2,7 +2,7 @@
 type: Validation Rule
 title: missing_pickup_or_drop_off_window
 description: Either the start or end pickup/drop-off window is missing in `stop_times.txt`.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_pickup_or_drop_off_window
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_pickup_or_drop_off_window-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_pickup_or_drop_off_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_pickup_or_drop_off_window)
+[1] [missing_pickup_or_drop_off_window rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_pickup_or_drop_off_window-rule)

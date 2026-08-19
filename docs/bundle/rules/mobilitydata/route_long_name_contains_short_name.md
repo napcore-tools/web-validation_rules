@@ -2,7 +2,7 @@
 type: Validation Rule
 title: route_long_name_contains_short_name
 description: Long name should not contain short name for a single route.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#route_long_name_contains_short_name
+resource: https://gtfs-validator.mobilitydata.org/rules.html#route_long_name_contains_short_name-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [route_long_name_contains_short_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_long_name_contains_short_name)
+[1] [route_long_name_contains_short_name rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_long_name_contains_short_name-rule)

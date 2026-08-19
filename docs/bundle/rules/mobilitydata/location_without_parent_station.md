@@ -2,7 +2,7 @@
 type: Validation Rule
 title: location_without_parent_station
 description: A location that must have `parent_station` field does not have it.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#location_without_parent_station
+resource: https://gtfs-validator.mobilitydata.org/rules.html#location_without_parent_station-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [location_without_parent_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#location_without_parent_station)
+[1] [location_without_parent_station rule reference](https://gtfs-validator.mobilitydata.org/rules.html#location_without_parent_station-rule)

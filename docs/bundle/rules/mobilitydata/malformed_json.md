@@ -2,7 +2,7 @@
 type: Validation Rule
 title: malformed_json
 description: A JSON file is malformed.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#malformed_json
+resource: https://gtfs-validator.mobilitydata.org/rules.html#malformed_json-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [malformed_json rule reference](https://gtfs-validator.mobilitydata.org/rules.html#malformed_json)
+[1] [malformed_json rule reference](https://gtfs-validator.mobilitydata.org/rules.html#malformed_json-rule)

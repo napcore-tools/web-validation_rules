@@ -2,7 +2,7 @@
 type: Validation Rule
 title: non_ascii_or_non_printable_char
 description: Non ascii or non printable char in ID field.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#non_ascii_or_non_printable_char
+resource: https://gtfs-validator.mobilitydata.org/rules.html#non_ascii_or_non_printable_char-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [non_ascii_or_non_printable_char rule reference](https://gtfs-validator.mobilitydata.org/rules.html#non_ascii_or_non_printable_char)
+[1] [non_ascii_or_non_printable_char rule reference](https://gtfs-validator.mobilitydata.org/rules.html#non_ascii_or_non_printable_char-rule)

@@ -2,7 +2,7 @@
 type: Validation Rule
 title: unexpected_enum_value
 description: An enum has an unexpected value.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#unexpected_enum_value
+resource: https://gtfs-validator.mobilitydata.org/rules.html#unexpected_enum_value-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [unexpected_enum_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unexpected_enum_value)
+[1] [unexpected_enum_value rule reference](https://gtfs-validator.mobilitydata.org/rules.html#unexpected_enum_value-rule)

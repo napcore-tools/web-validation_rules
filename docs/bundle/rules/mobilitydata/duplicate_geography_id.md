@@ -2,7 +2,7 @@
 type: Validation Rule
 title: duplicate_geography_id
 description: Geography id is duplicated across multiple files.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geography_id
+resource: https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geography_id-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [duplicate_geography_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geography_id)
+[1] [duplicate_geography_id rule reference](https://gtfs-validator.mobilitydata.org/rules.html#duplicate_geography_id-rule)

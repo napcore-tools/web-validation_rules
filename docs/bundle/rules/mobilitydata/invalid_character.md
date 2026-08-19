@@ -3,7 +3,7 @@ type: Validation Rule
 title: invalid_character
 description: This field contains invalid characters, such as the replacement character
   ("\uFFFD").
-resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_character
+resource: https://gtfs-validator.mobilitydata.org/rules.html#invalid_character-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [invalid_character rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_character)
+[1] [invalid_character rule reference](https://gtfs-validator.mobilitydata.org/rules.html#invalid_character-rule)

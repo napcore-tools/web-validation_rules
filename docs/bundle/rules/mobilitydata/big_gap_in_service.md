@@ -2,7 +2,7 @@
 type: Validation Rule
 title: big_gap_in_service
 description: A service has a gap of more than 13 days between active service dates.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#big_gap_in_service
+resource: https://gtfs-validator.mobilitydata.org/rules.html#big_gap_in_service-rule
 tags:
 - mobilitydata
 - gtfs
@@ -26,4 +26,4 @@ maturity: draft
 
 # Citations
 
-[1] [big_gap_in_service rule reference](https://gtfs-validator.mobilitydata.org/rules.html#big_gap_in_service)
+[1] [big_gap_in_service rule reference](https://gtfs-validator.mobilitydata.org/rules.html#big_gap_in_service-rule)

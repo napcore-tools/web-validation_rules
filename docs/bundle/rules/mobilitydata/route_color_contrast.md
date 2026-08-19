@@ -2,7 +2,7 @@
 type: Validation Rule
 title: route_color_contrast
 description: Insufficient route color contrast.
-resource: https://gtfs-validator.mobilitydata.org/rules.html#route_color_contrast
+resource: https://gtfs-validator.mobilitydata.org/rules.html#route_color_contrast-rule
 tags:
 - mobilitydata
 - gtfs
@@ -22,4 +22,4 @@ maturity: draft
 
 # Citations
 
-[1] [route_color_contrast rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_color_contrast)
+[1] [route_color_contrast rule reference](https://gtfs-validator.mobilitydata.org/rules.html#route_color_contrast-rule)

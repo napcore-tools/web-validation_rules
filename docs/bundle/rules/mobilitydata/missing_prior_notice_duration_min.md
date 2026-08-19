@@ -3,7 +3,7 @@ type: Validation Rule
 title: missing_prior_notice_duration_min
 description: '`prior_notice_duration_min` value is required for same day `booking_type`
   in booking_rules.txt.'
-resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_duration_min
+resource: https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_duration_min-rule
 tags:
 - mobilitydata
 - gtfs
@@ -23,4 +23,4 @@ maturity: draft
 
 # Citations
 
-[1] [missing_prior_notice_duration_min rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_duration_min)
+[1] [missing_prior_notice_duration_min rule reference](https://gtfs-validator.mobilitydata.org/rules.html#missing_prior_notice_duration_min-rule)
